@@ -1,0 +1,11 @@
+{
+	"id": "log_viewer",
+	"version": "1.0",
+	"description": "Log File Viewer for UliCMS",
+	"categories": [
+		"admin",
+		"logs"
+	],
+	"compatible_from": "2018.3",
+	"dependencies": []
+}
