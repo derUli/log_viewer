@@ -18,7 +18,7 @@ $logs = $controller->getLogs();
 	<li><a href="<?php
         
         echo $url;
-        ?>"><?php esc($file);?></a></li>
+        ?>"><i class="fas fa-file"></i> <?php esc($file);?></a></li>
 <?php }?>
 </ul>
 <?php }?>
