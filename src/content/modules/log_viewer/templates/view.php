@@ -1,4 +1,7 @@
 <?php
+
+use UliCMS\Utils\File;
+
 $path = basename(dirname(ViewBag::get("file"))) . "/" . basename(ViewBag::get("file"));
 $anchor = "dir-" . md5(basename(dirname(ViewBag::get("file"))));
 ?>
